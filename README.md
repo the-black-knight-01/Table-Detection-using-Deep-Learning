@@ -9,3 +9,4 @@
 #### Reference:
 * https://blog.goodaudience.com/table-detection-using-deep-learning-7182918d778
 * https://www.kdnuggets.com/2019/03/object-detection-luminoth.html
+* https://gist.github.com/chricke
