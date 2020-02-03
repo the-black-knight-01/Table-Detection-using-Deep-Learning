@@ -5,8 +5,8 @@ train:
   # Base directory in which model checkpoints & summaries (for Tensorboard) will
   # be saved.
   job_dir: jobs/
-  save_checkpoint_secs: 60
-  save_summaries_secs: 60
+  save_checkpoint_secs: 10
+  save_summaries_secs: 10
 
   # Number of epochs (complete dataset batches) to run.
   num_epochs: 100
