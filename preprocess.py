@@ -16,7 +16,7 @@ for file in file_list:
     
     # read list of image files to process from file
     image_list = pd.read_csv(os.path.join(data_root, file), header=None)[0]
-    
+    image_list = image_list[1:]
     print("Start preprocessing images")
     for image in image_list:
         # open image file
