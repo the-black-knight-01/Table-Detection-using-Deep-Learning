@@ -6,7 +6,7 @@ train:
     num_epochs: 100
 dataset:
     type: object_detection
-    dir: tfdata/classes-table/
+    dir: tfdata/
     image_preprocessing:
         min_size: 600
         max_size: 1024
